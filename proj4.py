@@ -53,7 +53,7 @@ cold_year_prob = .3         # Cold years 30% of the time
 germination_rate = 1/1000   # 1 out of 1000 will germinate
 tree_death_rate = 1/400     # 1 out of 400 will die
 bloom_probability = 2/45    # 2 out of 45 will bloom
-stress_bloom = .01        # when stressed, tree will be 50% more likely to bloom
+stress_bloom = 1/45         # when stressed, tree will be 50% more likely to bloom
 seed_death_rate = .5        # half of the seeds that don't germinate will die
 # Import rainfall data from csv file
 rainfall = []
